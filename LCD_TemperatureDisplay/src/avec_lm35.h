@@ -1,8 +1,9 @@
 #include <Arduino.h>
 
-float avec_lm35()
+float avec_lm35(LM35_pin)
 {
-    int pinLM35 = analogRead(A0);
-    float temperature = pinLM35 * (5.0 / 1024.0) * 100.0;
+    int valeur = analogRead(LM35_pin);
+    float tension = valeur * 5.0 / 1023.0;
+    float temperature = tension * 100.0;
     return temperature;
 }

@@ -1,15 +1,16 @@
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 
-LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
+#include <avec_lm35.h>
 
 void setup()
 {
-  lcd.begin(16, 2);
+  Serial.begin(9600);
 }
 
 void loop()
 {
-  lcd.clear();
-  lcd.print("Hello!");
+  float temperature = avec_lm35(A0);
+  Serial.println(temperature);
+  delay(500);
 }
