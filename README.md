@@ -30,14 +30,16 @@ Ce repository retrace mon apprentissage de la programmation embarquée, de l’�
 | `LED_Basics` | Allumer et faire clignoter une LED |
 | `LCD_TemperatureDisplay` | Afficher la température sur un écran LCD |
 | `Ultrasonic_Buzzer` | Faire sonner un buzzer si on se rapproche |
+| `IoT_Temp_Monitoring_AI_Alerts` | Supervision de température avec MQTT, Node-RED et alertes IA |
 
 ---
 
 ## ⚙️ Matériel utilisé
 
-- Arduino Uno 
+- Arduino Uno
+- ESP32 
 - Breadboard  
-- Résistances, LEDs, capteurs (LDR, DHT11, PIR, etc.)  
+- Résistances, LEDs, capteurs (LDR, DHT11, PIR, DHT22)  
 - Câbles de connexion  
 - Buzzer, afficheur LCD, etc.
 
