@@ -51,6 +51,7 @@ void loop() {
   float hic = dht.computeHeatIndex(t, h, false);
 
   client.publish("esatic/temp", String(t).c_str());
+  client.publish("esatic/humidite", String(h).c_str());
 
   Serial.print(F("Humidité: "));
   Serial.print(h);

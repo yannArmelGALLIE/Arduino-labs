@@ -11,6 +11,11 @@ Ce repository retrace mon apprentissage de la programmation embarquée, de l’�
 
 ![arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
+![node-red](https://img.shields.io/badge/node--red-8F0000?style=for-the-badge&logo=node-red&logoColor=white)
+
+![MQTT](https://img.shields.io/badge/MQTT-00779D?style=for-the-badge&logo=mqtt&logoColor=white)
+
+
 ---
 
 ## 🎯 Objectifs
